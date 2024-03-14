@@ -272,7 +272,7 @@ img{
 
 
 .team{
-    background: #F4F4FD;
+    background-color: #F4F4FD;
     padding-top: 96px;
     padding-bottom: 96px;
 }
@@ -1154,7 +1154,7 @@ color: #404BBF;
     .text_up{
         display: block;
         border: none;
-        background-color: #E7E9FC;
+        background-color: #31d0aa;
         border-radius: 5px;
         cursor: pointer;
     }
@@ -1374,12 +1374,10 @@ color: #404BBF;
 
 
 
-.dark-mode {
-    background-color: #333;
-    color: #fff;
+.dark-mode, body.dark-mode .team, body.dark-mode .footer {
+    background-color: black;
+    color: #fff !important;
 }
 
-.light-mode {
-    background-color: #fff;
-    color: #333;
-}
+
+
