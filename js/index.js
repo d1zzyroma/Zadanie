@@ -69,18 +69,12 @@ function MoodChange() {
     var body = document.body;
     body.classList.toggle('dark-mode');
     var allElements = document.querySelectorAll('*');
-    
-    if (!isColorChanged) {
-        allElements.forEach(function(element) {
-            if (!element.classList.contains('exclude-color-change')) {
-                element.style.color = "white";
-            }
-        });
-        isColorChanged = true;
-    } else {
-        allElements.forEach(function(element) {
-            element.style.color = ""; 
-        });
-        isColorChanged = false;
-    }
+
+    allElements.forEach(function(element) {
+        if (!element.classList.contains('color-change')) {
+            element.style.color = isColorChanged ? "" : "white";
+        }
+    });
+
+    isColorChanged = !isColorChanged;
 }
