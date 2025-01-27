@@ -8,8 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/twitter-1.svg">
     <script src="/js/index.js"></script>  
-    <title>Document</title>
+    <title>Web Studio</title>
 </head>
 <body>
      <header class="header">
@@ -35,7 +36,7 @@
                     <button class="text_up" type="button" onclick="TextUp2()">A+</button>
                     <button class="text_up" type="button" onclick="TextUp3()">A++</button>
                 </div>
-                <button class="open_menu_btn" type="button">
+                <button class="open_menu_btn" type="button" id="menu_btn">
                     <svg class="" width="24" height="24">
                         <use href ="./images/icons.svg#icon-menu_btn"></use>
                     </svg>
@@ -408,7 +409,7 @@
     </footer> 
      <div class="back_drop " id="back_drop"> 
         <div class="modal">
-            <button type="button" class="modal_close_btn">
+            <button type="button" class="modal_close_btn" id="close_btn_modal">
                 <svg class="modal_close_icon" width="8" height="8">
                     <use href="./images/icons.svg#icon-close-black"></use>
                 </svg>
@@ -460,9 +461,9 @@
             </form>
         </div>
     </div>
-    <div class="menu ">
+    <div class="menu " id="menu_main">
         <div class="div-menu">
-          <button class="close-button-menu" type="button">
+          <button class="close-button-menu" type="button" id="close_menu_btn">
             <svg class="icon-close" width="8" height="8">
               <use href="./images/icons.svg#icon-close-black"></use>
             </svg>
@@ -471,7 +472,7 @@
             <li class="menu-list-li">
               <a
                 class="menu-list-first current"
-                href="./index.html"
+                href="#"
                 target="_blank"
                 >Studio</a
               >
