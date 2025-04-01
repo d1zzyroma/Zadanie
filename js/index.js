@@ -45,7 +45,6 @@ for(var i = 0; i < h3Elements.length; i++) {
             console.log(j)
         }
     } 
-    
 }
 }
 

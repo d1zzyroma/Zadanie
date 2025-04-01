@@ -29,3 +29,15 @@ const closeMenu = () => {
 
 openMenuBtn.addEventListener("click", openMenu);
 closeMenuBtn.addEventListener("click", closeMenu);
+
+
+const modalBackDrop = document.querySelector("#")
+
+
+const openmodalBackDrop = () => {
+    modalBackDrop.classList.toggle("is_open")
+}
+
+btn = document.querySelector("#");
+
+btn.addEventListener("click", openmodalBackDrop)
