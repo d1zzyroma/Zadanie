@@ -1,4 +1,5 @@
 const btn = document.querySelector("#btn_order");
+c
 const backDrop = document.querySelector("#back_drop");
 const closeBtn = document.querySelector("#close_btn_modal")
 
